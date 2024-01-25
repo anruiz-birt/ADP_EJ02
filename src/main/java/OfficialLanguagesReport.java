@@ -62,7 +62,7 @@ public class OfficialLanguagesReport {
 			 pstmt.setString(2, "T");
 			 rsIdiomas = pstmt.executeQuery();
 			 
-			 System.out.println("");
+			 System.out.println(continente.toUpperCase());
 			 System.out.printf("%-20s","País");          
              System.out.printf("%-25s","Idioma Oficial");         
              System.out.printf("%-35s%n","% Hablantes");
